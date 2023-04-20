@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=DynaPuff&family=Dynalight&family=Pacifico&family=Teko&display=swap');
+.App{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.quote{
+  background: url(https://wallpapertag.com/wallpaper/full/3/5/d/435874-top-plain-blue-background-wallpaper-2880x1800-720p.jpg);
+  padding: 50px;
+  border-radius: 10px;
+  height: 320px;
+  width: 450px;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-size: 1.2pm;
+}
+.quote h1{
+  font-size: 1.7em;
+  font-family: 'Alkatra', cursive;
+  
+}
+.quote s1{
+  font-size: 1.5em;
+  font-family: 'Cookie', cursive;
+  margin-left:  250px;
+  font-weight: 200;
+}
+.butt{
+  color:black;
+  outline: none;
+  border: 2px solid black;
+  background: transparent;
+  display: block;
+  padding: 10px 15px;
+  font-size: 20px;
+  transition: background 1s, color 1s;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.butt:hover{
+  color: black;
+  background:skyblue;
+  
+}
